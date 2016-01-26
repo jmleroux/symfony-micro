@@ -1,0 +1,16 @@
+{
+  "name": "jmleroux/symfony-micro",
+  "type": "project",
+  "description": "Symfony micro kernel application",
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.5",
+    "symfony/symfony": "~3.0",
+    "symfony/monolog-bundle": "~2.4",
+    "doctrine/doctrine-bundle": "~1.6"
+  }
+}
