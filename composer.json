@@ -12,5 +12,12 @@
     "symfony/symfony": "~3.0",
     "symfony/monolog-bundle": "~2.4",
     "doctrine/doctrine-bundle": "~1.6"
+  },
+  "require-dev": {
+    "phpspec/phpspec": "~2.0",
+    "henrikbjorn/phpspec-code-coverage": "^2.0"
+  },
+  "config": {
+    "bin-dir": "bin"
   }
 }
